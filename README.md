@@ -35,6 +35,26 @@ pip install -r requirements.txt
 
 ## Citations
 ```bash
+@ARTICLE{Li2019-iz,
+  title   = "{GEOMETRIC} {OBJECT} {BASED} {BUILDING} {RECONSTRUCTION} {FROM}
+             {SATELLITE} {IMAGERY} {DERIVED} {POINT} {CLOUDS}",
+  author  = "Li, Zhixin and Xu, Bo and Shan, Jie",
+  journal = "International Archives of the Photogrammetry, Remote Sensing \&
+             Spatial Information Sciences",
+  year    =  2019
+}
+
+@ARTICLE{Zhang2021-as,
+  title     = "Optimal model fitting for building reconstruction from point
+               clouds",
+  author    = "Zhang, Wenyuan and Li, Zhixin and Shan, Jie",
+  journal   = "IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.",
+  publisher = "Institute of Electrical and Electronics Engineers (IEEE)",
+  volume    =  14,
+  pages     = "9636--9650",
+  year      =  2021
+}
+
 @ARTICLE{Li2022-zb,
   title     = "{RANSAC}-based multi primitive building reconstruction from {3D}
                point clouds",
