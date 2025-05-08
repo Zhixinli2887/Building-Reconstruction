@@ -31,6 +31,7 @@ Install the required packages using:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Citations
 ```bash
@@ -44,3 +45,4 @@ pip install -r requirements.txt
   year      =  2022,
   language  = "en"
 }
+```
