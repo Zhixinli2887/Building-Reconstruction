@@ -5,7 +5,7 @@ This repository contains code for roof primitive regression and point cloud proc
 ## Roof Primitives
 
 Design of the roof primitives, including the parameters and visualizations.
-![plot](https://github.com/Zhixinli2887/Building-Reconstruction/edit/main/images/primitives.png)
+![screenshot](https://github.com/Zhixinli2887/Building-Reconstruction/edit/main/images/primitives.png)
 
 ## Features
 
