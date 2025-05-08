@@ -7,6 +7,12 @@ This repository contains code for roof primitive regression and point cloud proc
 Design of the roof primitives, including the parameters and visualizations.
 ![primitives](https://github.com/user-attachments/assets/83589b53-6b3a-4bfd-9a97-b12af015e2bc)
 
+## Roof Primitives
+
+Design of the training procedure.
+![training](https://github.com/user-attachments/assets/e16acfae-5c4c-465a-b93f-e41f41ba6a9a)
+
+
 ## Features
 
 - **Point Cloud Processing**: Implements point cloud sampling, grouping, and feature extraction using neural networks.
@@ -23,6 +29,8 @@ Design of the roof primitives, including the parameters and visualizations.
 - `results/`: Directory for saving evaluation results and visualizations.
 
 ## Reconstruction Results
+![PU_building](https://github.com/user-attachments/assets/0267807a-a81c-44e3-b03c-91930b8d2a93)
+![NYC_reconstruction](https://github.com/user-attachments/assets/3cc53f4f-c4b8-46cc-a9eb-60b034cd2ec7)
 
 
 ## Requirements
