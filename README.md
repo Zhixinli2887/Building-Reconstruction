@@ -29,7 +29,6 @@ Design of the training procedure.
 - `results/`: Directory for saving evaluation results and visualizations.
 
 ## Reconstruction Results
-![PU_building](https://github.com/user-attachments/assets/0267807a-a81c-44e3-b03c-91930b8d2a93)
 ![NYC_reconstruction](https://github.com/user-attachments/assets/3cc53f4f-c4b8-46cc-a9eb-60b034cd2ec7)
 
 
