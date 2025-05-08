@@ -4,6 +4,9 @@ This repository contains code for roof primitive regression and point cloud proc
 
 ## Roof Primitives
 
+Design of the roof primitives, including the parameters and visualizations.
+![screenshot](image/primitives.png)
+
 ## Features
 
 - **Point Cloud Processing**: Implements point cloud sampling, grouping, and feature extraction using neural networks.
