@@ -2,6 +2,8 @@
 
 This repository contains code for roof primitive regression and point cloud processing using deep learning techniques. The project is implemented in Python and PyTorch, with additional utilities for evaluation and visualization.
 
+## Roof Primitives
+
 ## Features
 
 - **Point Cloud Processing**: Implements point cloud sampling, grouping, and feature extraction using neural networks.
@@ -16,6 +18,9 @@ This repository contains code for roof primitive regression and point cloud proc
 - `util.py`: Utility functions for point cloud sampling and grouping.
 - `data/`: Directory for storing input point cloud data.
 - `results/`: Directory for saving evaluation results and visualizations.
+
+## Reconstruction Results
+
 
 ## Requirements
 
