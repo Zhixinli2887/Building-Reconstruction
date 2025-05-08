@@ -31,3 +31,16 @@ Install the required packages using:
 
 ```bash
 pip install -r requirements.txt
+
+## Citations
+```bash
+@ARTICLE{Li2022-zb,
+  title     = "{RANSAC}-based multi primitive building reconstruction from {3D}
+               point clouds",
+  author    = "Li, Zhixin and Shan, Jie",
+  journal   = "ISPRS J. Photogramm. Remote Sens.",
+  publisher = "Elsevier BV",
+  month     =  jan,
+  year      =  2022,
+  language  = "en"
+}
