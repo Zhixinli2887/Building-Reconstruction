@@ -35,7 +35,6 @@ def train(args, io):
         primitive_dict = json.load(f)
         roof_types = list(primitive_dict.keys())
         dim_num = [primitive_dict[roof_type]['para_num'] for roof_type in roof_types]
-    dim_num = [dim_num[0]]
 
     models, opts, schedulers, train_loaders, test_loaders = [], [], [], [], []
     for idx, dim in enumerate(dim_num):
@@ -173,14 +172,14 @@ def train(args, io):
 if __name__ == "__main__":
     # Training settings
     parser = argparse.ArgumentParser(description='Point Cloud Recognition')
-    parser.add_argument('--exp_name', type=str, default='roof_primitive_perfect_0cm', metavar='N',
+    parser.add_argument('--exp_name', type=str, default='roof_primitive_sigma_5cm', metavar='N',
                         help='Name of the experiment')
-    parser.add_argument('--dataset', type=str, default='roof_primitive_perfect_0cm', metavar='N')
+    parser.add_argument('--dataset', type=str, default='roof_primitive_sigma_5cm', metavar='N')
     parser.add_argument('--batch_size', type=int, default=16, metavar='batch_size',
                         help='Size of batch)')
     parser.add_argument('--test_batch_size', type=int, default=16, metavar='batch_size',
                         help='Size of batch)')
-    parser.add_argument('--epochs', type=int, default=2000, metavar='N',
+    parser.add_argument('--epochs', type=int, default=200, metavar='N',
                         help='number of episode to train ')
     parser.add_argument('--use_sgd', type=bool, default=False,
                         help='Use SGD')
